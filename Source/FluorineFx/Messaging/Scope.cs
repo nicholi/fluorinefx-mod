@@ -48,7 +48,7 @@ namespace FluorineFx.Messaging
     public class Scope : BasicScope, IScope, IScopeStatistics
 	{
 #if !SILVERLIGHT
-        static ILog log = LogManager.GetLogger(typeof(Scope));
+        static ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
 		private const string ScopeType = "scope";

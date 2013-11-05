@@ -46,7 +46,7 @@ namespace FluorineFx.IO
 	public class AMFReader : BinaryReader
 	{
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(AMFReader));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
 		bool _useLegacyCollection = true;

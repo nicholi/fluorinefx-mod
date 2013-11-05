@@ -40,7 +40,7 @@ namespace FluorineFx.Messaging.Services.Messaging
 	/// </summary>
 	class SubscriptionManager
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(SubscriptionManager));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		MessageDestination	_messageDestination;
 		object _objLock = new object();

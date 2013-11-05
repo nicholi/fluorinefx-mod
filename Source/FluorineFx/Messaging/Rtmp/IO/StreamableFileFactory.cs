@@ -37,7 +37,7 @@ namespace FluorineFx.Messaging.Rtmp.IO
     /// </summary>
     class StreamableFileFactory : IStreamableFileFactory
     {
-        private static ILog log = LogManager.GetLogger(typeof(StreamableFileFactory));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         public StreamableFileFactory()
         {

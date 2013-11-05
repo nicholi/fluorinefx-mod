@@ -59,7 +59,7 @@ namespace FluorineFx.Data
 	/// </summary>
 	public class DataServiceTransaction
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(DataServiceTransaction));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         sealed class RefreshFillData
         {

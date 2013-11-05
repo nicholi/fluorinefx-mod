@@ -64,7 +64,7 @@ namespace FluorineFx.Net
     class RtmpClientConnection : RtmpConnection
     {
 #if !SILVERLIGHT
-        private static ILog log = LogManager.GetLogger(typeof(RtmpClientConnection));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 #endif
         readonly ByteBuffer _readBuffer;
         readonly RtmpNetworkStream _rtmpNetworkStream;

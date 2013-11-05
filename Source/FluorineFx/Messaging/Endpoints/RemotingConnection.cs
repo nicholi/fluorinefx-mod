@@ -39,7 +39,7 @@ namespace FluorineFx.Messaging.Endpoints
 {
     class RemotingConnection : BaseConnection
     {
-        private static ILog log = LogManager.GetLogger(typeof(RemotingConnection));
+        private static ILog log = LogManager.GetCurrentClassLogger();
         IEndpoint _endpoint;
 
         public RemotingConnection(IEndpoint endpoint, ISession session, string path, string connectionId, Hashtable parameters)

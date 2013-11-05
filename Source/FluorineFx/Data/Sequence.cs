@@ -31,7 +31,7 @@ namespace FluorineFx.Data
 	/// </summary>
 	class Sequence : CollectionBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(Sequence));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		int			_id;
 		object[]	_parameters;

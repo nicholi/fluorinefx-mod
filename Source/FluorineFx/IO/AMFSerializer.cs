@@ -34,7 +34,7 @@ namespace FluorineFx.IO
 	public class AMFSerializer : AMFWriter
 	{
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(AMFSerializer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
 		/// <summary>

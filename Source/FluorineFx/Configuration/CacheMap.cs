@@ -62,7 +62,7 @@ namespace FluorineFx.Configuration
             }
         }
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(CacheMap));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #if (NET_1_1)
         private Hashtable _cacheMap = new Hashtable();
 #else

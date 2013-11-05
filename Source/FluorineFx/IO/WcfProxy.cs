@@ -36,7 +36,7 @@ namespace FluorineFx.IO
     class WcfProxy : ObjectProxy
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(WcfProxy));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         static bool IsDataContract(Type type)

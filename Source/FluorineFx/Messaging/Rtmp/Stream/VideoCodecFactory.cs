@@ -32,7 +32,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     /// </summary>
     class VideoCodecFactory
     {
-        private static ILog log = LogManager.GetLogger(typeof(VideoCodecFactory));
+        private static ILog log = LogManager.GetCurrentClassLogger();
         /// <summary>
         /// List of available codecs.
         /// </summary>

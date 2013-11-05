@@ -37,7 +37,7 @@ namespace FluorineFx.Data
 	/// </summary>
 	class SequenceManager
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(SequenceManager));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		object _objLock = new object();
 		DataDestination _dataDestination;

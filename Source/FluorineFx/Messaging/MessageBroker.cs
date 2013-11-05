@@ -79,7 +79,7 @@ namespace FluorineFx.Messaging
     [CLSCompliant(false)]
     public class MessageBroker
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(MessageBroker));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         /// <summary>
         /// Default MessageBroker identity.
         /// </summary>

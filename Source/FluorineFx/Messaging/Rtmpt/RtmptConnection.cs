@@ -60,7 +60,7 @@ namespace FluorineFx.Messaging.Rtmpt
 
     class RtmptConnection : RtmpConnection
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmptConnection));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Try to generate responses that contain at least 32768 bytes data.

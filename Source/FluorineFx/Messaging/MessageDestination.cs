@@ -32,7 +32,7 @@ namespace FluorineFx.Messaging
 	/// </summary>
 	class MessageDestination : Destination
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(MessageDestination));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         SubscriptionManager _subscriptionManager;
 
         public MessageDestination(IService service, DestinationDefinition destinationDefinition)

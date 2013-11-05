@@ -42,7 +42,7 @@ namespace FluorineFx.Messaging.Endpoints
 	/// </summary>
 	class AMFEndpoint : EndpointBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(AMFEndpoint));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         protected FilterChain _filterChain;
         AtomicInteger _waitingPollRequests;
 

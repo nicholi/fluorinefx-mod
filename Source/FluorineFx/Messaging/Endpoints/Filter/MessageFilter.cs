@@ -44,7 +44,7 @@ namespace FluorineFx.Messaging.Endpoints.Filter
 	/// </summary>
 	class MessageFilter : AbstractFilter
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(MessageFilter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 		EndpointBase _endpoint;
 
 		public MessageFilter(EndpointBase endpoint)

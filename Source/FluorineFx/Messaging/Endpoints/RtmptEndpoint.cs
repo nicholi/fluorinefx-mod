@@ -47,7 +47,7 @@ namespace FluorineFx.Messaging.Endpoints
     {
         public const string FluorineRtmptEndpointId = "__@fluorinertmpt";
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmptEndpoint));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         //static object _objLock = new object();
         RtmptServer _rtmptServer;
 

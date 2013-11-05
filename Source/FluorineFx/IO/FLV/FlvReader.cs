@@ -33,7 +33,7 @@ namespace FluorineFx.IO.FLV
     class FlvReader : ITagReader, IKeyFrameDataAnalyzer
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(FlvReader));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         object _syncLock = new object();
 

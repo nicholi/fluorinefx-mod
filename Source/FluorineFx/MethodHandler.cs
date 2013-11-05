@@ -36,7 +36,7 @@ namespace FluorineFx
 	public static class MethodHandler
 	{
 #if !SILVERLIGHT
-        private static readonly ILog Log = LogManager.GetLogger(typeof(MethodHandler));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 #endif
 
 	    /// <summary>

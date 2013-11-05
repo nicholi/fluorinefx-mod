@@ -33,7 +33,7 @@ namespace FluorineFx.Messaging.Rtmp
 	/// </summary>
 	sealed class RtmpSocketListener : DisposableBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmpSocketListener));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         private IPEndPoint _endPoint;
         private Socket _socket;
         private int _acceptCount;

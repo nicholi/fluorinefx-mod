@@ -75,7 +75,7 @@ namespace FluorineFx.Messaging.Rtmp
     /// </summary>
     class RtmpServerConnection : RtmpConnection//, IStreamCapableConnection
     {
-        private static ILog log = LogManager.GetLogger(typeof(RtmpServerConnection));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         RtmpServer _rtmpServer;
         ByteBuffer _readBuffer;

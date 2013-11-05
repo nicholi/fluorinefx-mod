@@ -34,7 +34,7 @@ namespace FluorineFx.IO.FLV
     class FlvWriter : ITagWriter
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(FlvWriter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         object _syncLock = new object();
 

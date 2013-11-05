@@ -39,7 +39,7 @@ namespace FluorineFx.IO.Bytecode.CodeDom
 	/// </summary>
 	class BytecodeProvider : IBytecodeProvider
 	{
-		private static readonly ILog log = LogManager.GetLogger(typeof(BytecodeProvider));
+		private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		public BytecodeProvider()
 		{

@@ -36,7 +36,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream.Provider
     /// </summary>
     class FileProvider : IPassive, ISeekableProvider, IPullableProvider, IPipeConnectionListener, IStreamTypeAwareProvider 
     {
-        private static ILog log = LogManager.GetLogger(typeof(FileProvider));
+        private static ILog log = LogManager.GetCurrentClassLogger();
         object _syncLock = new object();
 
         /// <summary>

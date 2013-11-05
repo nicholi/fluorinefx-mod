@@ -46,7 +46,7 @@ namespace FluorineFx.Messaging.Endpoints
     /// </summary>
     class EndpointPushNotifier : IEndpointPushHandler, ISessionListener, IMessageClientListener
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(EndpointPushNotifier));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         object _syncLock = new object();
         IEndpoint _endpoint;

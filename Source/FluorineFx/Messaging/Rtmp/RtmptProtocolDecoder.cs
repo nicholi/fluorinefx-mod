@@ -38,7 +38,7 @@ namespace FluorineFx.Messaging.Rtmp
     sealed class RtmptProtocolDecoder
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmptProtocolDecoder));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         public static RtmptRequest DecodeBuffer(RtmpConnection connection, ByteBuffer stream)

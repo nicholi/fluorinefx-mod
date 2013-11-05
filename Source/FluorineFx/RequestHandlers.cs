@@ -82,7 +82,7 @@ namespace FluorineFx
 
     class AmfRequestHandler : IRequestHandler
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof(AmfRequestHandler));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 
         readonly IRequestHandlerHost _host;
 
@@ -172,7 +172,7 @@ namespace FluorineFx
 
     class StreamingAmfRequestHandler : IRequestHandler
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof(StreamingAmfRequestHandler));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 
         readonly IRequestHandlerHost _host;
 
@@ -282,7 +282,7 @@ namespace FluorineFx
 
     class JsonRpcRequestHandler : IRequestHandler
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof(JsonRpcRequestHandler));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 
         readonly IRequestHandlerHost _host;
 
@@ -368,7 +368,7 @@ namespace FluorineFx
 
     class RtmptRequestHandler : IRequestHandler
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof(RtmptRequestHandler));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 
         readonly IRequestHandlerHost _host;
 

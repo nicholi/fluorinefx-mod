@@ -55,7 +55,7 @@ namespace FluorineFx.Messaging.Rtmp.SO
 	/// </summary>
     class SharedObject : AttributeStore, IPersistable
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(SharedObject));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		[NonSerialized]
 		public const string TYPE = "SharedObject";

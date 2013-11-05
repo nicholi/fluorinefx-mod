@@ -31,7 +31,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
 {
     class ProviderService : IProviderService
     {
-        private static ILog log = LogManager.GetLogger(typeof(ProviderService));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         #region IProviderService Members
 

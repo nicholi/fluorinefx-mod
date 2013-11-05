@@ -35,7 +35,7 @@ namespace FluorineFx.Messaging.Api.Messaging
     /// </summary>
     abstract class AbstractPipe : IPipe
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(AbstractPipe));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         protected CopyOnWriteArray _consumers = new CopyOnWriteArray();
         protected CopyOnWriteArray _providers = new CopyOnWriteArray();

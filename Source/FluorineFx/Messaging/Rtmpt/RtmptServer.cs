@@ -31,7 +31,7 @@ namespace FluorineFx.Messaging.Rtmpt
 {
     sealed class RtmptServer
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof(RtmptServer));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 
         readonly SynchronizedHashtable _connections;
         readonly RtmptEndpoint _endpoint;

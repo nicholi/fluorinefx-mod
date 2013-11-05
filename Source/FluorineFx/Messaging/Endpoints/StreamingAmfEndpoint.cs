@@ -76,7 +76,7 @@ namespace FluorineFx.Messaging.Endpoints
         /// </summary>
         private const string HTTP_1_0 = "HTTP/1.0";
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(StreamingAmfEndpoint));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         AtomicInteger _streamingClientsCount;
         Hashtable _currentStreamingRequests;

@@ -30,7 +30,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
 {
     class StreamService : IStreamService
     {
-        private static ILog log = LogManager.GetLogger(typeof(StreamService));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Returns current stream id.

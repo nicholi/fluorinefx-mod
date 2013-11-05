@@ -43,7 +43,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     /// </summary>
     class SimpleBWControlService : IBWControlService
     {
-        private static ILog log = LogManager.GetLogger(typeof(SimpleBWControlService));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         object _syncLock = new object();
 
@@ -561,7 +561,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
 
         class Bucket : ITokenBucket
         {
-            private static ILog log = LogManager.GetLogger(typeof(Bucket));
+            private static ILog log = LogManager.GetCurrentClassLogger();
 
             private IBWControllable _bc;
             private int _channel;

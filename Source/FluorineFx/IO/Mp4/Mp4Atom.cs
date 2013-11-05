@@ -53,7 +53,7 @@ namespace FluorineFx.IO.Mp4
     class Mp4Atom
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(Mp4Atom));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         
         public readonly static int MP4AudioSampleEntryAtomType = Mp4Atom.TypeToInt("mp4a");

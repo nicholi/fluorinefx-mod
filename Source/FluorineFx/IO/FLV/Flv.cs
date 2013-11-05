@@ -32,7 +32,7 @@ namespace FluorineFx.IO.FLV
     class Flv : IFlv
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(Flv));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         private FileInfo _file;
         private bool _generateMetadata;

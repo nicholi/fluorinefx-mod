@@ -28,7 +28,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream.Codec
 {
     class AVCVideo : IVideoStreamCodec
     {
-        private static ILog log = LogManager.GetLogger(typeof(AVCVideo));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// AVC video codec constant.

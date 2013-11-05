@@ -37,7 +37,7 @@ namespace FluorineFx.Security
 {
     class LoginManager
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(LoginManager));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private const int NoLoginCommand = 10053;
 

@@ -31,7 +31,7 @@ namespace FluorineFx.IO
     class ASObjectProxy : IObjectProxy
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(ASObjectProxy));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         #region IObjectProxy Members

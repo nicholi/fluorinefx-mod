@@ -38,7 +38,7 @@ namespace FluorineFx.IO.Bytecode.Lightweight
 	/// </summary>
 	class AMF0ReflectionOptimizer : IReflectionOptimizer
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(AMF0ReflectionOptimizer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 		private CreateInstanceInvoker _createInstanceMethod;
 		private ReadDataInvoker _readDataMethod;
 #if !(MONO) && !(NET_2_0) && !(NET_3_5) && !(SILVERLIGHT)

@@ -32,7 +32,7 @@ namespace FluorineFx.Json.Rpc
 {
     class JsonRpcHandler
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(JsonRpcHandler));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         HttpContext _context;
         static Hashtable Features;

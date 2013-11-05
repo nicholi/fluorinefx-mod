@@ -55,7 +55,7 @@ namespace FluorineFx.Messaging
     [CLSCompliant(false)]
     public sealed class MessageClient : IMessageClient
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(MessageClient));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         private object _syncLock = new object();
 
 		string				_clientId;

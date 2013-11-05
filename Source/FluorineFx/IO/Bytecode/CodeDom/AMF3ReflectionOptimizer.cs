@@ -36,7 +36,7 @@ namespace FluorineFx.IO.Bytecode.CodeDom
 	/// </summary>
 	class AMF3ReflectionOptimizer : AMF0ReflectionOptimizer
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(AMF3ReflectionOptimizer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         ClassDefinition _classDefinition;
 

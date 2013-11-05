@@ -45,7 +45,7 @@ namespace FluorineFx.Util
 	/// </summary>
 	sealed public class WsdlHelper
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(WsdlHelper));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         static Hashtable _webserviceTypeCache = new Hashtable();
         static object _objLock = new object();

@@ -39,7 +39,7 @@ namespace FluorineFx.Messaging
         private const int FlexClientInvalidated = 10027;
         private const int EndpointPushHandlerAlreadyRegistered = 10033;
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(Client));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         private object _syncLock = new object();
 
         private string _id;

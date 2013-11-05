@@ -36,7 +36,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream.Consumer
 {
     class FileConsumer : IPushableConsumer, IPipeConnectionListener
     {
-        private static ILog log = LogManager.GetLogger(typeof(FileConsumer));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         object _syncLock = new object();
 

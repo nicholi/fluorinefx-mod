@@ -30,7 +30,7 @@ namespace FluorineFx.IO.Mp3
 {
     class Mp3Reader : ITagReader, IKeyFrameDataAnalyzer
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(Mp3Reader));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         object _syncLock = new object();
 
         private FileInfo _file;

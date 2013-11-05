@@ -34,7 +34,7 @@ namespace FluorineFx.Messaging.Endpoints.Filter
 	/// </summary>
 	class WsdlFilter : AbstractFilter
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(WsdlFilter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		/// <summary>
 		/// Initializes a new instance of the WsdlFilter class.

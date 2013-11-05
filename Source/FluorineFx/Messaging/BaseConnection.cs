@@ -40,7 +40,7 @@ namespace FluorineFx.Messaging
     public abstract class BaseConnection : AttributeStore, IConnection
     {
 #if !SILVERLIGHT
-        private static ILog log = LogManager.GetLogger(typeof(BaseConnection));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         private FastReaderWriterLock _readerWriterLock;

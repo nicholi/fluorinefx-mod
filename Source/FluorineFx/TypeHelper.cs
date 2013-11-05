@@ -49,7 +49,7 @@ namespace FluorineFx
         static object _syncLock = new object();
 #endif
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(TypeHelper));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
 		static TypeHelper()

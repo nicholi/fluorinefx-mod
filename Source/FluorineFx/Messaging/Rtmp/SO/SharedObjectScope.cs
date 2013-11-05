@@ -43,7 +43,7 @@ namespace FluorineFx.Messaging.Rtmp.SO
 	/// </summary>
 	class SharedObjectScope : BasicScope, ISharedObject
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(SharedObjectScope));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Scoped shared object

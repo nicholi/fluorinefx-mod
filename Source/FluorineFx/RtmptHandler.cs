@@ -29,7 +29,7 @@ namespace FluorineFx
     /// </summary>
     public class RtmptHandler : IHttpHandler
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmptHandler));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private MessageServer GetMessageServer(HttpContext context)
         {

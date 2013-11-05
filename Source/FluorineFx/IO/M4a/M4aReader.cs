@@ -33,7 +33,7 @@ namespace FluorineFx.IO.M4a
     /// </summary>
     class M4aReader : ITagReader
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(M4aReader));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         object _syncLock = new object();
         private FileInfo _file;

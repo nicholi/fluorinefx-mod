@@ -31,7 +31,7 @@ namespace FluorineFx.IO.M4a
     /// </summary>
     class M4a : IM4a
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(M4a));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private FileInfo _file;
 

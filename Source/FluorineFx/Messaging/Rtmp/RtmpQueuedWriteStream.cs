@@ -39,7 +39,7 @@ namespace FluorineFx.Messaging.Rtmp
     class RtmpQueuedWriteStream : System.IO.Stream
     {
 #if !SILVERLIGHT
-        private static ILog log = LogManager.GetLogger(typeof(RtmpQueuedWriteStream));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         private System.IO.Stream _innerStream;

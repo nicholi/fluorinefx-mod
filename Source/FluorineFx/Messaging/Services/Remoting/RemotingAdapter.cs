@@ -38,7 +38,7 @@ namespace FluorineFx.Remoting
 	/// </summary>
 	class RemotingAdapter : ServiceAdapter
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(RemotingAdapter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		public RemotingAdapter()
 		{

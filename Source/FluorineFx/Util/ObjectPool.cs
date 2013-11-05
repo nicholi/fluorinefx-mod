@@ -31,7 +31,7 @@ namespace FluorineFx.Util
     public class ObjectPool<T> : DisposableBase
     {
 #if !SILVERLIGHT
-        private static readonly ILog Log = LogManager.GetLogger(typeof(ObjectPool<>));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 #endif
         private readonly int _capacity;
         private readonly int _growth;

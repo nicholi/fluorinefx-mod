@@ -49,7 +49,7 @@ namespace FluorineFx.Messaging.Rtmp
 	/// </summary>
 	sealed class RtmpServer : DisposableBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmpServer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		event ErrorHandler _onErrorEvent;
 

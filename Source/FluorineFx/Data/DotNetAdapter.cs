@@ -35,7 +35,7 @@ namespace FluorineFx
 	/// </summary>
 	class DotNetAdapter : ServiceAdapter
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(DotNetAdapter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		public DotNetAdapter()
 		{

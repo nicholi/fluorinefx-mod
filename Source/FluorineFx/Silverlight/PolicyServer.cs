@@ -26,7 +26,7 @@ namespace FluorineFx.Silverlight
 {
     class PolicyConnection
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(PolicyServer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private PolicyServer _policyServer;
         private Socket _connection;
@@ -195,7 +195,7 @@ namespace FluorineFx.Silverlight
     /// </summary>
     public class PolicyServer
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(PolicyServer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private Socket _listener;
         private byte[] _policy;

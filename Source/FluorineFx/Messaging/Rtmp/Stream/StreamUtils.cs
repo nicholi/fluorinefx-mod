@@ -29,7 +29,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     [CLSCompliant(false)]
     public class StreamUtils
     {
-        static private ILog log = LogManager.GetLogger(typeof(StreamUtils));
+        static private ILog log = LogManager.GetCurrentClassLogger();
 
         private StreamUtils()
         {

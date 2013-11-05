@@ -52,7 +52,7 @@ namespace FluorineFx.IO
 	public class AMFWriter : BinaryWriter
 	{
 #if !SILVERLIGHT
-		private static readonly ILog log = LogManager.GetLogger(typeof(AMFWriter));
+		private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
 		bool _useLegacyCollection = true;

@@ -63,7 +63,7 @@ namespace FluorineFx.Context
     [CLSCompliant(false)]
 	public abstract class FluorineContext
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(FluorineContext));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// This member supports the Fluorine infrastructure and is not intended to be used directly from your code.

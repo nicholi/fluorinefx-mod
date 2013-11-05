@@ -34,7 +34,7 @@ namespace FluorineFx.Messaging.Services.Messaging
     /// </summary>
     class MsmqAdapter : ServiceAdapter
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(MsmqAdapter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         MsmqProperties _msmqSettings;
         MessageQueue _messageQueue;

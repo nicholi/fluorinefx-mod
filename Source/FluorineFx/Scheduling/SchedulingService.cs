@@ -74,7 +74,7 @@ namespace FluorineFx.Scheduling
 
     class SchedulingService : ISchedulingService
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(SchedulingService));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private Thread _thread;
         ThreadPoolEx _threadPool;

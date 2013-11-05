@@ -36,7 +36,7 @@ namespace FluorineFx.Context
 {
     sealed class _TimeoutContext : FluorineContext
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(_TimeoutContext));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private _TimeoutContext()
 		{

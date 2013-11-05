@@ -39,7 +39,7 @@ namespace FluorineFx.Messaging
     [CLSCompliant(false)]
 	public sealed class MessageServer : DisposableBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(MessageServer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private readonly object _syncLock = new object();
         ServicesConfiguration _servicesConfiguration;

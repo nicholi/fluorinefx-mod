@@ -37,7 +37,7 @@ namespace FluorineFx.Context
 	/// </summary>
 	sealed class FluorineRtmpContext : FluorineContext
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(FluorineRtmpContext));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private FluorineRtmpContext(IConnection connection)
         {

@@ -34,7 +34,7 @@ namespace FluorineFx.IO.Mp4
     class Mp4 : IMp4
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(Mp4));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         private FileInfo _file;

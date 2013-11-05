@@ -30,7 +30,7 @@ namespace FluorineFx.Invocation
 	class InvocationHandler
 	{
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(InvocationHandler));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 		MethodInfo _methodInfo;
 		/// <summary>

@@ -94,7 +94,7 @@ namespace FluorineFx.Messaging.Rtmp
         public const string ACTION_RECEIVE_AUDIO = "receiveAudio";
 
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(BaseRtmpHandler));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         /// <summary>

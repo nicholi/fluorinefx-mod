@@ -47,7 +47,7 @@ namespace FluorineFx.Messaging.Rtmp.SO
 		{
 			try
 			{
-				_log = LogManager.GetLogger(typeof(SharedObjectService));
+				_log = LogManager.GetCurrentClassLogger();
 			}
 			catch{}
 		}

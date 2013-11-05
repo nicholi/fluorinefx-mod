@@ -38,7 +38,7 @@ namespace FluorineFx.Messaging.Services
     [CLSCompliant(false)]
     public class MessageService : ServiceBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(MessageService));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private MessageService()
         {

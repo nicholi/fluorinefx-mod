@@ -44,7 +44,7 @@ namespace FluorineFx.Messaging.Endpoints
 	/// </summary>
 	internal class RtmpEndpoint : EndpointBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmpEndpoint));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         //static object _objLock = new object();
         public static string Slash = "/";

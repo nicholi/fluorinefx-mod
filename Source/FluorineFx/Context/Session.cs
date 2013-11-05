@@ -34,7 +34,7 @@ namespace FluorineFx.Context
     {
 		internal const string FxASPNET_SessionId = "__@ASP.NET_SessionId";
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(Session));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         private object _syncLock = new object();
         private string _id;

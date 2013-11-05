@@ -50,7 +50,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     /// </summary>
     class VideoFrameDropper : IFrameDropper
     {
-        private static ILog log = LogManager.GetLogger(typeof(VideoFrameDropper));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Current state.

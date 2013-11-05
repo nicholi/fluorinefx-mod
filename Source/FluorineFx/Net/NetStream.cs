@@ -77,7 +77,7 @@ namespace FluorineFx.Net
     public class NetStream : AbstractClientStream, IPendingServiceCallback, IEventDispatcher, INetStreamEventHandler
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(NetStream));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 
         NetConnection _connection;

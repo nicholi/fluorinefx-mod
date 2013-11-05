@@ -36,7 +36,7 @@ namespace FluorineFx.IO
 	public class AMFDeserializer : AMFReader
 	{
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(AMFDeserializer));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
 #if !(NET_1_1)
         List<AMFBody> _failedAMFBodies = new List<AMFBody>(1);

@@ -44,7 +44,7 @@ namespace FluorineFx.Configuration
 			ILog _log = null;
 			try
 			{
-				_log = LogManager.GetLogger(typeof(XmlConfigurator));
+				_log = LogManager.GetCurrentClassLogger();
 			}
 			catch{}
 

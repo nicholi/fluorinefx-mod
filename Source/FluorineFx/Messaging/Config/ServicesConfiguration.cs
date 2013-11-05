@@ -34,7 +34,7 @@ namespace FluorineFx.Messaging.Config
     [XmlRootAttribute("services-config")]    
     public sealed class ServicesConfiguration
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(ServicesConfiguration));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         Services _services;
 

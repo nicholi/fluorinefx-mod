@@ -57,7 +57,7 @@ namespace FluorineFx.Messaging.Rtmp
     public abstract class RtmpConnection : BaseConnection, IServiceCapableConnection, IStreamCapableConnection
 	{
 #if !SILVERLIGHT
-        private static ILog log = LogManager.GetLogger(typeof(RtmpConnection));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 #endif
         readonly RtmpContext _context;
 

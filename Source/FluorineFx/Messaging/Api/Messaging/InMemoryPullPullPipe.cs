@@ -36,7 +36,7 @@ namespace FluorineFx.Messaging.Api.Messaging
     /// </summary>
     class InMemoryPullPullPipe : AbstractPipe
     {
-        private static ILog log = LogManager.GetLogger(typeof(InMemoryPullPullPipe));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
 #if !(NET_1_1)
         public override bool Subscribe(IConsumer consumer, Dictionary<string, object> parameterMap)

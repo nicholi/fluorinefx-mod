@@ -35,7 +35,7 @@ namespace FluorineFx.IO.Mp4
     class Mp4Reader : ITagReader
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(Mp4Reader));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         /// <summary>
         /// Audio packet prefix

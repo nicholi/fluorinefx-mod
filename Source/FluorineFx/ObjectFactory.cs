@@ -37,7 +37,7 @@ namespace FluorineFx
 	sealed class ObjectFactory
 	{
 #if !SILVERLIGHT
-		private static readonly ILog Log = LogManager.GetLogger(typeof(ObjectFactory));
+		private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 #endif
         private static volatile ObjectFactory _instance;
         private static readonly object SyncRoot = new Object();

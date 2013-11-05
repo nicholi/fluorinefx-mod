@@ -46,7 +46,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     /// </summary>
     class PlaylistSubscriberStream : AbstractClientStream, IPlaylistSubscriberStream, IPlaylistSubscriberStreamStatistics
     {
-        private static ILog log = LogManager.GetLogger(typeof(PlaylistSubscriberStream));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Playlist controller

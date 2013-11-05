@@ -42,7 +42,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     [CLSCompliant(false)]
     public class BroadcastStream : AbstractStream, IBroadcastStream, IProvider, IPipeConnectionListener
     {
-        private static ILog log = LogManager.GetLogger(typeof(BroadcastStream));
+        private static ILog log = LogManager.GetCurrentClassLogger();
         protected IPipe _livePipe;
         /// <summary>
         /// Factory object for video codecs.

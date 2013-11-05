@@ -13,7 +13,7 @@ namespace FluorineFx.Json.Rpc
 {
     internal sealed class JsonRpcServiceReflector
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(JsonRpcServiceReflector));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         private static readonly CopyOnWriteDictionary _classByTypeCache = new CopyOnWriteDictionary();
 
         public static ServiceClass FromType(Type type)

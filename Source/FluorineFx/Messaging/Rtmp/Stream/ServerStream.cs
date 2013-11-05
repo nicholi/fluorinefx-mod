@@ -61,7 +61,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     [CLSCompliant(false)]
     public class ServerStream : AbstractStream, IServerStream, IFilter, IPushableConsumer, IPipeConnectionListener
     {
-        static private ILog log = LogManager.GetLogger(typeof(ServerStream));
+        static private ILog log = LogManager.GetCurrentClassLogger();
 
         private static long WAIT_THRESHOLD = 0;
         /// <summary>

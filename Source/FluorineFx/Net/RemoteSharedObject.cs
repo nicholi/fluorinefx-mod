@@ -57,7 +57,7 @@ namespace FluorineFx.Net
     public class RemoteSharedObject : AttributeStore
     {
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(RemoteSharedObject));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         bool _secure;
         ObjectEncoding _objectEncoding;

@@ -38,7 +38,7 @@ namespace FluorineFx.IO.Bytecode.CodeDom
 	/// </summary>
 	class AMF0ReflectionOptimizer
 	{
-		private static readonly ILog log = LogManager.GetLogger(typeof(AMF0ReflectionOptimizer));
+		private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		private CompilerParameters _cp = new CompilerParameters();
         protected Type _mappedClass;

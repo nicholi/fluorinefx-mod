@@ -16,7 +16,7 @@ namespace FluorineFx.Json.Rpc
 {
     sealed class JsonRpcExecutive : JsonRpcServiceFeature
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(JsonRpcExecutive));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         public JsonRpcExecutive(MessageBroker messageBroker)
             : base(messageBroker)

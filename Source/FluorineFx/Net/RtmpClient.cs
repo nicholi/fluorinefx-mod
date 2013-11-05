@@ -45,7 +45,7 @@ namespace FluorineFx.Net
     class RtmpClient : BaseRtmpHandler, INetConnectionClient, IPendingServiceCallback
     {
 #if !SILVERLIGHT
-        private static readonly ILog Log = LogManager.GetLogger(typeof(RtmpClient));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 #endif
 
         readonly NetConnection _netConnection;

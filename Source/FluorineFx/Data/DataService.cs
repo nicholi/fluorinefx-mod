@@ -37,7 +37,7 @@ namespace FluorineFx.Data
 	/// </summary>
 	internal class DataService : MessageService
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(DataService));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 		//private ILog _coreDumpLog = null;
 
         public DataService(MessageBroker messageBroker, ServiceDefinition serviceDefinition)

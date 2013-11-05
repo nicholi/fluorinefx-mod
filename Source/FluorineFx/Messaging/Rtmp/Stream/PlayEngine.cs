@@ -47,7 +47,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     /// </summary>
     class PlayEngine : IFilter, IPushableConsumer, IPipeConnectionListener, ITokenBucketCallback
     {
-        private static ILog log = LogManager.GetLogger(typeof(PlayEngine));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         private IMessageInput _msgIn;
         private IMessageOutput _msgOut;

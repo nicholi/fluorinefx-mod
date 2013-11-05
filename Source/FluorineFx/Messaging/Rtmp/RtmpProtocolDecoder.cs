@@ -44,7 +44,7 @@ namespace FluorineFx.Messaging.Rtmp
 	public sealed class RtmpProtocolDecoder
 	{
 #if !SILVERLIGHT
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmpProtocolDecoder));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 #endif
         /// <summary>
         /// RTMP handshake size.

@@ -32,7 +32,7 @@ namespace FluorineFx.IO.Readers
 	/// </summary>
 	class AMF0OptimizedObjectReader : IAMFReader
 	{
-		private static readonly ILog log = LogManager.GetLogger(typeof(AMF0OptimizedObjectReader));
+		private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		Hashtable _optimizedReaders;
 

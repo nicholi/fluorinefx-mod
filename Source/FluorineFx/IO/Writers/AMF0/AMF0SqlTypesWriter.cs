@@ -31,7 +31,7 @@ namespace FluorineFx.IO.Writers
 	/// </summary>
 	class AMF0SqlTypesWriter : IAMFWriter
 	{
-		private static readonly ILog _log = LogManager.GetLogger(typeof(AMF0SqlTypesWriter));
+		private static readonly ILog _log = LogManager.GetCurrentClassLogger();
 
 		public AMF0SqlTypesWriter()
 		{

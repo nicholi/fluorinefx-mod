@@ -34,7 +34,7 @@ namespace FluorineFx.Messaging.Endpoints.Filter
 	/// </summary>
 	class CacheFilter : AbstractFilter
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(CacheFilter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		public CacheFilter()
 		{

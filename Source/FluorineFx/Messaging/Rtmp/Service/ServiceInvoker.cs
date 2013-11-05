@@ -35,7 +35,7 @@ namespace FluorineFx.Messaging.Rtmp.Service
 	class ServiceInvoker : IServiceInvoker
 	{
 		public static string SERVICE_NAME = "serviceInvoker";
-        static ILog log = LogManager.GetLogger(typeof(ServiceInvoker));
+        static ILog log = LogManager.GetCurrentClassLogger();
         /// <summary>
         /// Service resolvers.
         /// </summary>

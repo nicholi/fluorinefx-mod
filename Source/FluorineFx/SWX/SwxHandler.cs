@@ -33,7 +33,7 @@ namespace FluorineFx.SWX
 {
     class SwxHandler
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(SwxHandler));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         public void Handle(HttpApplication httpApplication)
         {

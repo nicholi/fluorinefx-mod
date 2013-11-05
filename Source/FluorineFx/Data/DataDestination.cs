@@ -34,7 +34,7 @@ namespace FluorineFx.Data
 	/// </summary>
 	class DataDestination : MessageDestination
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(DataDestination));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 		SequenceManager _sequenceManager;
 
         public DataDestination(IService service, DestinationDefinition destinationDefinition)

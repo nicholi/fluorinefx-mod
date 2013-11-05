@@ -40,7 +40,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream.Consumer
     class ConnectionConsumer : IPushableConsumer, IPipeConnectionListener
     {
 #if !SILVERLIGHT
-        private static ILog log = LogManager.GetLogger(typeof(ConnectionConsumer));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 #endif
         /// <summary>
         /// Connection object.

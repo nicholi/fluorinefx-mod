@@ -58,7 +58,7 @@ namespace FluorineFx
     [CLSCompliant(false)]
     public class FluorineGateway : IHttpModule, IRequiresSessionState, IRegisteredObject, IRequestHandlerHost
 	{
-        private static readonly ILog Log = LogManager.GetLogger(typeof(FluorineGateway));
+        private static readonly ILog Log = LogManager.GetCurrentClassLogger();
 
 		internal const string FluorineHttpCompressKey = "__@fluorinehttpcompress";
         internal const string FluorineMessageServerKey = "__@fluorinemessageserver";

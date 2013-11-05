@@ -36,7 +36,7 @@ namespace FluorineFx.Messaging.Endpoints.Filter
 	/// </summary>
 	class ServiceMapFilter : AbstractFilter
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(ServiceMapFilter));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 		EndpointBase _endpoint;
 
 		/// <summary>

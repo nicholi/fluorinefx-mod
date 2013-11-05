@@ -50,7 +50,7 @@ namespace FluorineFx.Messaging.Rtmp
 	/// </summary>
     class RtmpHandler : BaseRtmpHandler
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(RtmpHandler));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 
         IEndpoint _endpoint;

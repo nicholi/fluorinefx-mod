@@ -34,7 +34,7 @@ namespace FluorineFx.Messaging
     [CLSCompliant(false)]
     public class Destination
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(Destination));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Service managing this Destination.

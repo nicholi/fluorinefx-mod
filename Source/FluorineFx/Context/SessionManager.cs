@@ -35,7 +35,7 @@ namespace FluorineFx.Context
 {
     class SessionManager : ISessionListener
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(SessionManager));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         object _objLock = new object();
 
         MessageBroker _messageBroker;

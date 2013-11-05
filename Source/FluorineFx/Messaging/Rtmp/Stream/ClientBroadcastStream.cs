@@ -53,7 +53,7 @@ namespace FluorineFx.Messaging.Rtmp.Stream
     class ClientBroadcastStream : AbstractClientStream,
         IClientBroadcastStream, IFilter, IPushableConsumer, IPipeConnectionListener, IEventDispatcher, IClientBroadcastStreamStatistics
     {
-        private static ILog log = LogManager.GetLogger(typeof(ClientBroadcastStream));
+        private static ILog log = LogManager.GetCurrentClassLogger();
 
         /// <summary>
         /// Stores absolute time for video stream.

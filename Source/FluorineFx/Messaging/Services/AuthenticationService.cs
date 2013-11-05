@@ -43,7 +43,7 @@ namespace FluorineFx.Messaging.Services
 	/// </summary>
 	class AuthenticationService : ServiceBase
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(AuthenticationService));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 
 		public const string ServiceId = "authentication-service";
 

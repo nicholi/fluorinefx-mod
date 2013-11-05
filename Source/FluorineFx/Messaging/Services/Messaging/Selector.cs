@@ -32,7 +32,7 @@ namespace FluorineFx.Messaging.Services.Messaging
 	/// </summary>
     class Selector : IComparable
 	{
-        private static readonly ILog log = LogManager.GetLogger(typeof(Selector));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
 		private EvaluateInvoker _evaluateMethod;
         readonly string _expression;
 

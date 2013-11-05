@@ -18,7 +18,7 @@ namespace FluorineFx.Json.Rpc
     sealed class JsonRpcProxyGenerator : JsonRpcServiceFeature
     {
         private DateTime _lastModifiedTime  = DateTime.MinValue;
-        private static readonly ILog log = LogManager.GetLogger(typeof(JsonRpcProxyGenerator));
+        private static readonly ILog log = LogManager.GetCurrentClassLogger();
         private Hashtable _generators;
 
         public JsonRpcProxyGenerator(MessageBroker messageBroker)
