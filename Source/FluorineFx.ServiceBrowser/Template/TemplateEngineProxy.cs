@@ -23,7 +23,7 @@ using System.Reflection;
 using System.Security.Policy;
 using System.Security.Permissions;
 using System.Security;
-using Common.Logging;
+using log4net;
 using FluorineFx.Util;
 using FluorineFx.ServiceBrowser;
 

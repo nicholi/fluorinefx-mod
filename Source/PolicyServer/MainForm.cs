@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using FluorineFx.Silverlight;
-using Common.Logging;
+using log4net;
 
 namespace FluorineFxPolicyServer
 {

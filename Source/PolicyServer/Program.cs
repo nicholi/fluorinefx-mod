@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using Common.Logging;
+using log4net;
 
 namespace FluorineFxPolicyServer
 {

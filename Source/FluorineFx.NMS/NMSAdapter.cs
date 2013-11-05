@@ -9,7 +9,7 @@ using Apache.NMS.ActiveMQ.Commands;
 using FluorineFx.Messaging.Config;
 using FluorineFx.Messaging.Messages;
 using FluorineFx.Messaging.Services;
-using Common.Logging;
+using log4net;
 using System.Collections.Generic;
 using FluorineFx.Context;
 

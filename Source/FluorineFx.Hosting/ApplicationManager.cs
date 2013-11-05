@@ -26,7 +26,7 @@ using System.IO;
 using System.Globalization;
 using System.Security.Policy;
 using System.Security;
-using Common.Logging;
+using log4net;
 
 namespace FluorineFx.Hosting
 {

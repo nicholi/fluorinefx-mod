@@ -22,7 +22,7 @@ using System.Xml.Serialization;
 using System.Collections;
 using System.Collections.Specialized;
 using System.Reflection;
-using Common.Logging;
+using log4net;
 
 namespace FluorineFx.Management
 {

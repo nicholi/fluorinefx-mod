@@ -18,7 +18,7 @@
 */
 using System;
 using System.Threading;
-using Common.Logging;
+using log4net;
 
 namespace FluorineFx.Hosting
 {

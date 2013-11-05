@@ -22,7 +22,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using System.Reflection;
-using Common.Logging;
+using log4net;
 
 namespace FluorineFx.Hosting
 {
