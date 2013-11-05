@@ -21,7 +21,7 @@ using System.Collections;
 using System.Security;
 using System.Security.Permissions;
 using System.Security.Principal;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Collections;
 using FluorineFx.Messaging.Messages;

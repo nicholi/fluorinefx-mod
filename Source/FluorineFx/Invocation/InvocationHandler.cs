@@ -19,7 +19,7 @@
 using System;
 using System.Reflection;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 
 namespace FluorineFx.Invocation

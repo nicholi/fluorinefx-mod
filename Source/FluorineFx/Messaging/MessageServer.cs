@@ -20,7 +20,7 @@
 using System;
 using System.Web;
 using System.IO;
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging.Config;
 using FluorineFx.Messaging.Endpoints;
 using FluorineFx.Messaging.Services;

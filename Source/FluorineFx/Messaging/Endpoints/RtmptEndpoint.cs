@@ -23,7 +23,7 @@ using System.IO;
 using System.Collections;
 using System.Collections.Specialized;
 using System.Diagnostics;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Collections;
 using FluorineFx.Messaging;

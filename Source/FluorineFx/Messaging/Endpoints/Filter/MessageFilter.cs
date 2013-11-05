@@ -26,7 +26,7 @@ using System.Web.Configuration;
 using System.Web.Caching;
 using System.Threading;
 using System.Reflection;
-using log4net;
+using Common.Logging;
 using FluorineFx.Exceptions;
 using FluorineFx.Diagnostic;
 using FluorineFx.IO;

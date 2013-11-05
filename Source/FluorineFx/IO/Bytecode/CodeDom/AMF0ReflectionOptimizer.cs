@@ -25,7 +25,7 @@ using System.Text;
 using System.Xml;
 using Microsoft.CSharp;
 
-using log4net;
+using Common.Logging;
 
 using FluorineFx.Exceptions;
 using FluorineFx.Configuration;
@@ -171,7 +171,7 @@ namespace FluorineFx.IO.Bytecode.CodeDom
             "using FluorineFx.Exceptions;\n" +
             "using FluorineFx.Configuration;\n" +
             "using FluorineFx.IO.Bytecode;\n" +
-            "using log4net;\n" +
+            "using Common.Logging;\n" +
             "namespace FluorineFx.Bytecode.CodeDom {\n";
         }
 

@@ -22,7 +22,7 @@ using System.Collections;
 #if !NET_1_1
 using System.Collections.Generic;
 #endif
-using log4net;
+using Common.Logging;
 using FluorineFx.Collections;
 using FluorineFx.Configuration;
 using FluorineFx.Messaging.Api;

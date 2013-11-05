@@ -21,7 +21,7 @@ using System;
 using System.Text;
 using System.Collections;
 using System.Diagnostics;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Context;
 using FluorineFx.Collections;

@@ -22,7 +22,7 @@ using System.Text;
 using System.Collections;
 using System.Reflection;
 using System.CodeDom.Compiler;
-using log4net;
+using Common.Logging;
 using FluorineFx.CodeGenerator.Parser;
 using FluorineFx.Util;
 

@@ -25,7 +25,7 @@ using System.Text;
 using System.Xml;
 using Microsoft.CSharp;
 
-using log4net;
+using Common.Logging;
 
 using FluorineFx.AMF3;
 using FluorineFx.Exceptions;

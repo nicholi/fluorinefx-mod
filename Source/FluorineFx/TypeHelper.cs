@@ -30,7 +30,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlTypes;
 using System.Web;
-using log4net;
+using Common.Logging;
 #endif
 #if !NET_2_0
 using System.Xml.Linq;

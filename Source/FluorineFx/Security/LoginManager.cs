@@ -24,7 +24,7 @@ using System.Security.Principal;
 using System.Threading;
 using System.Web;
 using System.Web.Security;
-using log4net;
+using Common.Logging;
 using FluorineFx;
 using FluorineFx.IO;
 using FluorineFx.Context;

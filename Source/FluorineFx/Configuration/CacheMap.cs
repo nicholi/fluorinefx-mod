@@ -21,7 +21,7 @@ using System.Collections;
 using FluorineFx.Collections;
 using System.Web;
 using System.Web.Caching;
-using log4net;
+using Common.Logging;
 #if !(NET_1_1)
 using System.Collections.Generic;
 #endif

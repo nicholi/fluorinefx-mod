@@ -26,7 +26,7 @@ using FluorineFx.Configuration;
 using FluorineFx.Reflection;
 using FluorineFx.Reflection.Lightweight;
 using FluorineFx.Util;
-using log4net;
+using Common.Logging;
 #endif
 
 namespace FluorineFx

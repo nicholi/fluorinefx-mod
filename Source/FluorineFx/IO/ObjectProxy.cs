@@ -21,7 +21,7 @@ using System.Reflection;
 using System.Collections.Generic;
 #if !SILVERLIGHT
 using System.Text;
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.AMF3;
 using FluorineFx.Configuration;

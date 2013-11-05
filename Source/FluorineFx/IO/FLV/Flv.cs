@@ -22,7 +22,7 @@ using System.IO;
 //using System.Web;
 //using System.Web.Caching;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Util;
 using FluorineFx.IO;

@@ -20,7 +20,7 @@ using System;
 using System.Collections;
 using System.IO;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 
 namespace FluorineFx.IO.FLV

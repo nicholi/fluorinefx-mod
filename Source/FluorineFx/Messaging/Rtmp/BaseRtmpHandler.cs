@@ -18,7 +18,7 @@
 */
 using System;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Context;
 using FluorineFx.Util;

@@ -30,7 +30,7 @@ using System.Collections.Generic;
 #if SILVERLIGHT
 using System.Xml.Linq;
 #else
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Exceptions;
 using FluorineFx.AMF3;

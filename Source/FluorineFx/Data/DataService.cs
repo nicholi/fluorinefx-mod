@@ -20,7 +20,7 @@
 using System;
 using System.Collections;
 using System.Text;
-using log4net;
+using Common.Logging;
 using FluorineFx.AMF3;
 using FluorineFx.Util;
 using FluorineFx.Messaging.Config;

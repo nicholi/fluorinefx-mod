@@ -31,7 +31,7 @@ using System.Security;
 using System.Security.Permissions;
 using System.Web.Hosting;
 using FluorineFx.Util;
-using log4net;
+using Common.Logging;
 using FluorineFx.Browser;
 using FluorineFx.Configuration;
 using FluorineFx.Context;

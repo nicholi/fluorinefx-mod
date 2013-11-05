@@ -18,7 +18,7 @@
 */
 using System;
 using System.Collections;
-using log4net;
+using Common.Logging;
 using FluorineFx.Exceptions;
 using FluorineFx.Diagnostic;
 using FluorineFx.Security;

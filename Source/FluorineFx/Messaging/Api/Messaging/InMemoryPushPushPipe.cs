@@ -21,7 +21,7 @@ using System.Collections;
 #if !(NET_1_1)
 using System.Collections.Generic;
 #endif
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Messaging.Messages;
 using FluorineFx.Exceptions;

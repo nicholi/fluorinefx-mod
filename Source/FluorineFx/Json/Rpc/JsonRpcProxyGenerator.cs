@@ -11,7 +11,7 @@ using FluorineFx.Json.Services;
 using FluorineFx.Messaging;
 using FluorineFx.Context;
 using FluorineFx.Configuration;
-using log4net;
+using Common.Logging;
 
 namespace FluorineFx.Json.Rpc
 {

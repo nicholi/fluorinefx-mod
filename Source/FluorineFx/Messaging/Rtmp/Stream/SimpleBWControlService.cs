@@ -19,7 +19,7 @@
 using System;
 using System.Collections;
 using System.Threading;
-using log4net;
+using Common.Logging;
 using FluorineFx.Collections;
 using FluorineFx.Messaging.Api;
 using FluorineFx.Configuration;

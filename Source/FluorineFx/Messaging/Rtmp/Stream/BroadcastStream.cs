@@ -18,7 +18,7 @@
 */
 using System;
 using System.Collections.Generic;
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging.Api;
 using FluorineFx.Messaging.Api.Messaging;
 using FluorineFx.Messaging.Api.Stream;

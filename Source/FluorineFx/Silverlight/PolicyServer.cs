@@ -20,7 +20,7 @@ using System;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using log4net;
+using Common.Logging;
 
 namespace FluorineFx.Silverlight
 {

@@ -20,7 +20,7 @@ using System;
 using System.Collections.Generic;
 using FluorineFx.Threading;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 
 namespace FluorineFx.Util

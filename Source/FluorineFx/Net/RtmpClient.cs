@@ -22,7 +22,7 @@ using System.Net;
 using System.Reflection;
 using System.Net.Sockets;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Util;
 using FluorineFx.Messaging.Api;

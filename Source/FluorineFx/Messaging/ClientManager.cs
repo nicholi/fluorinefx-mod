@@ -22,7 +22,7 @@ using System.Web.Caching;
 using System.Collections;
 using System.Threading;
 using System.Diagnostics;
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging;
 using FluorineFx.Messaging.Api;
 using FluorineFx.Util;

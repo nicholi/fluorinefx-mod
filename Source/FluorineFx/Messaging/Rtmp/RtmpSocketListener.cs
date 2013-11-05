@@ -21,7 +21,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Configuration;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Threading;
 using FluorineFx.Configuration;

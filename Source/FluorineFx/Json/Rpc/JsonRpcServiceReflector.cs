@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using System.Diagnostics;
 using System.Reflection;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Collections;
 using FluorineFx.Json.Services;

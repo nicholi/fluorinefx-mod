@@ -28,7 +28,7 @@ using System.Diagnostics;
 using System.Collections.Generic;
 #endif
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Messaging.Messages;
 using FluorineFx.Messaging.Api;
@@ -181,7 +181,8 @@ namespace FluorineFx.Messaging.Rtmp
             {
                 _lock.ReleaseReaderLock();
             }
-            log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+	    // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_SocketBeginReceive, _connectionId, IOCPThread));
 
@@ -204,7 +205,8 @@ namespace FluorineFx.Messaging.Rtmp
             {
                 _lock.ReleaseReaderLock();
             }
-            log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_SocketReceiveProcessing, _connectionId));
 
@@ -241,7 +243,8 @@ namespace FluorineFx.Messaging.Rtmp
             {
                 _lock.ReleaseReaderLock();
             }
-            log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_SocketBeginRead, _connectionId));
 
@@ -293,7 +296,8 @@ namespace FluorineFx.Messaging.Rtmp
             {
                 _lock.ReleaseReaderLock();
             }
-            log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_SocketReadProcessing, _connectionId));
             if (!IsTunnelingDetected)
@@ -456,7 +460,8 @@ namespace FluorineFx.Messaging.Rtmp
             {
                 _lock.ReleaseReaderLock();
             }
-            log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_BeginDisconnect, _connectionId));
             try
@@ -484,7 +489,8 @@ namespace FluorineFx.Messaging.Rtmp
             {
                 _lock.ReleaseReaderLock();
             }
-            log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
+            // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_SocketDisconnectProcessing, _connectionId));
             try

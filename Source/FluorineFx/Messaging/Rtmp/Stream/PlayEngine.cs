@@ -22,7 +22,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endif
 using System.IO;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.IO;
 using FluorineFx.Exceptions;

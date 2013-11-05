@@ -23,7 +23,7 @@ using System.Globalization;
 using FluorineFx.Configuration;
 using FluorineFx.Collections;
 using FluorineFx.Threading;
-using log4net;
+using Common.Logging;
 
 #if NET_1_1
 using FluorineFx.Util.Nullables;

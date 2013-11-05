@@ -20,7 +20,7 @@ using System;
 using System.Web;
 using FluorineFx.Context;
 using FluorineFx.Messaging;
-using log4net;
+using Common.Logging;
 
 namespace FluorineFx
 {

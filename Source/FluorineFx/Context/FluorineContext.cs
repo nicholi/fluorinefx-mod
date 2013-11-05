@@ -28,7 +28,7 @@ using System.Security;
 using System.Security.Principal;
 using System.Security.Permissions;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Security;
 using FluorineFx.Messaging.Api;

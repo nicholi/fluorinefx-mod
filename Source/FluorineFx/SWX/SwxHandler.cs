@@ -22,8 +22,7 @@ using System.Reflection;
 using System.Web;
 using System.Collections.Specialized;
 using System.Security;
-// Import log4net classes.
-using log4net;
+using Common.Logging;
 
 using FluorineFx;
 using FluorineFx.Invocation;

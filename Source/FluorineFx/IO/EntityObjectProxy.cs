@@ -25,7 +25,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using System.Data.Objects;
 using System.Data.Objects.DataClasses;
-using log4net;
+using Common.Logging;
 using FluorineFx.AMF3;
 using FluorineFx.Configuration;
 using FluorineFx.Util;

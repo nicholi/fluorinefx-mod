@@ -24,7 +24,7 @@ using System.Collections.Generic;
 #endif
 using System.Threading;
 using System.Reflection;
-using log4net;
+using Common.Logging;
 using FluorineFx.Configuration;
 using FluorineFx.Util;
 using FluorineFx.Collections;

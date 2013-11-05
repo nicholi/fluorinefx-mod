@@ -24,7 +24,7 @@ using System.Collections.Specialized;
 using System.Collections.Generic;
 using FluorineFx.Collections.Generic;
 #endif
-using log4net;
+using Common.Logging;
 using FluorineFx;
 using FluorineFx.Util;
 using FluorineFx.IO;

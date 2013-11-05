@@ -19,7 +19,7 @@
 using System;
 using System.Collections;
 using System.IO;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.IO;
 using FluorineFx.IO.FLV;

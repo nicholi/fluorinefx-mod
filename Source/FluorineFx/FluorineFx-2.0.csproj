@@ -756,7 +756,6 @@
   <ItemGroup>
     <None Include="services-config.xml" />
     <None Include="ISharedObject.cd" />
-    <None Include="log4net.config" />
     <None Include="App.config.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -768,10 +767,6 @@
     <Reference Include="antlr.runtime, Version=2.7.6.2, Culture=neutral, PublicKeyToken=65e474d141e25e07">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\antlr\net\2.0\antlr.runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\log4net\net\2.0\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

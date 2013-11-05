@@ -24,7 +24,7 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Diagnostics;
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging.Messages;
 using FluorineFx.Messaging.Api;
 using FluorineFx.Messaging.Endpoints;

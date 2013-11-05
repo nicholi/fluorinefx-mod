@@ -24,7 +24,7 @@ using System.Text;
 using System.Collections.Generic;
 #endif
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Util;
 using FluorineFx.Messaging.Rtmpt;

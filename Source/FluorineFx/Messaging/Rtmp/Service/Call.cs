@@ -20,7 +20,7 @@ using System;
 using System.Collections;
 using System.Reflection;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Invocation;
 using FluorineFx.Messaging.Api;

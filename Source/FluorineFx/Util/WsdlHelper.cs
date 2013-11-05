@@ -33,7 +33,7 @@ using System.Web.Services.Discovery;
 using System.CodeDom;
 using System.CodeDom.Compiler;
 using Microsoft.CSharp;
-using log4net;
+using Common.Logging;
 using FluorineFx.Context;
 using FluorineFx.Configuration;
 using FluorineFx.Exceptions;

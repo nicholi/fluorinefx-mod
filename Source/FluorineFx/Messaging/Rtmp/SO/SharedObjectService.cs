@@ -19,9 +19,7 @@
 using System;
 using System.IO;
 using System.Collections;
-// Import log4net classes.
-using log4net;
-using log4net.Config;
+using Common.Logging;
 
 using FluorineFx.Configuration;
 using FluorineFx.Messaging.Api;

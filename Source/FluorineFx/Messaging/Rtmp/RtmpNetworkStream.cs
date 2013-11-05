@@ -24,7 +24,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Util;
 

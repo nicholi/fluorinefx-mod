@@ -24,7 +24,7 @@ using System.IO;
 using System.Diagnostics;
 using FluorineFx.Util;
 using FluorineFx.Configuration;
-using log4net;
+using Common.Logging;
 
 namespace FluorineFx.Messaging.Config
 {

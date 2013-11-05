@@ -37,7 +37,7 @@ using FluorineFx.Messaging.Endpoints;
 using FluorineFx.Messaging.Endpoints.Filter;
 using FluorineFx.Messaging.Services.Remoting;
 using FluorineFx.Util;
-using log4net;
+using Common.Logging;
 
 namespace FluorineFx.Messaging.Endpoints
 {

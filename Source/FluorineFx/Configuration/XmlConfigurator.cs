@@ -24,9 +24,7 @@ using System.Xml.Serialization;
 using System.Xml.XPath;
 using System.Configuration;
 
-// Import log4net classes.
-using log4net;
-using log4net.Config;
+using Common.Logging;
 
 namespace FluorineFx.Configuration
 {

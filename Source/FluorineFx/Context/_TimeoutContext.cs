@@ -26,7 +26,7 @@ using System.Collections.Specialized;
 using System.Security.Principal;
 using System.Threading;
 using System.Security.Cryptography;
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging.Api;
 using FluorineFx.Messaging;
 using FluorineFx.Messaging.Messages;

@@ -21,7 +21,7 @@ using System.Data;
 using System.Data.SqlTypes;
 using System.Collections;
 
-using log4net;
+using Common.Logging;
 using FluorineFx.Exceptions;
 
 namespace FluorineFx.IO.Writers

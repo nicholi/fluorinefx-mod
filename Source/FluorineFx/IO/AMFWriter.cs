@@ -41,7 +41,7 @@ using System.Xml.Linq;
 //using System.Xml.Linq;
 #else
 using System.Data;
-using log4net;
+using Common.Logging;
 #endif
 
 namespace FluorineFx.IO

@@ -27,7 +27,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters;
 using System.Runtime.Serialization.Formatters.Soap;
 using System.Security;
-using log4net;
+using Common.Logging;
 using FluorineFx;
 using FluorineFx.Configuration;
 using FluorineFx.Context;

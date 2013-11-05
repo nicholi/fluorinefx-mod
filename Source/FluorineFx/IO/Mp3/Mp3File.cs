@@ -21,7 +21,7 @@ using System.Collections;
 using System.IO;
 using System.Web;
 using System.Web.Caching;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.IO;
 

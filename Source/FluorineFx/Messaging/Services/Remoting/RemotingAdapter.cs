@@ -21,7 +21,7 @@ using System;
 using System.Collections;
 using System.Reflection;
 using System.IO;
-using log4net;
+using Common.Logging;
 using FluorineFx.AMF3;
 using FluorineFx.IO;
 using FluorineFx.Invocation;

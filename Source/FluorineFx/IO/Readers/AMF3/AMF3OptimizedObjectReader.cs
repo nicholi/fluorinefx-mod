@@ -19,7 +19,7 @@
 using System;
 using System.Collections;
 
-using log4net;
+using Common.Logging;
 using FluorineFx.Configuration;
 using FluorineFx.AMF3;
 using FluorineFx.IO.Bytecode;

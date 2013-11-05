@@ -23,7 +23,7 @@ using System.Reflection;
 using System.Collections.Generic;
 #endif
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.AMF3;
 using FluorineFx.Configuration;

@@ -22,7 +22,7 @@ using System.IO;
 using System.Net;
 using System.Security;
 using System.Security.Permissions;
-using log4net;
+using Common.Logging;
 using FluorineFx.Context;
 using FluorineFx.Util;
 using FluorineFx.Messaging.Api.Service;

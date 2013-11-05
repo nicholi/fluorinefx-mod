@@ -22,7 +22,7 @@ using System.Reflection.Emit;
 using System.Security;
 using System.Security.Permissions;
 using FluorineFx.Reflection.Lightweight;
-using log4net;
+using Common.Logging;
 
 using FluorineFx.AMF3;
 using FluorineFx.Configuration;

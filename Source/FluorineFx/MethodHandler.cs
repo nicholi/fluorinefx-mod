@@ -24,7 +24,7 @@ using System.Text;
 using System.Security;
 using System.Security.Permissions;
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Exceptions;
 

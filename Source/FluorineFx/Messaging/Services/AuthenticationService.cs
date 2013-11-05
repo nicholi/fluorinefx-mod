@@ -27,7 +27,7 @@ using System.Web.Configuration;
 using System.Web.Caching;
 using System.Threading;
 
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging.Endpoints;
 using FluorineFx.Messaging.Config;
 using FluorineFx.Messaging;

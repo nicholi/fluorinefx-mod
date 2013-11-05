@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using System.IO;
 using System.Web;
-using log4net;
+using Common.Logging;
 using FluorineFx.Json.Services;
 using FluorineFx.Util;
 using FluorineFx.Messaging;

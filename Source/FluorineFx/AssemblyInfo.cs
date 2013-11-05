@@ -55,8 +55,6 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyCopyright("FluorineFx.com")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]		
-// Configure log4net using the .log4net file
-[assembly: log4net.Config.XmlConfigurator(ConfigFile="log4net.config",Watch=true)]
 // The config file will be watched for changes.
 [assembly: System.Security.AllowPartiallyTrustedCallers()]
 [assembly: System.CLSCompliant(true)]

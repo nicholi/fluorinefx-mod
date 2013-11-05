@@ -18,7 +18,7 @@
 */
 using System;
 using System.Web;
-using log4net;
+using Common.Logging;
 using FluorineFx.Context;
 using FluorineFx.Messaging;
 
@@ -57,7 +57,8 @@ namespace FluorineFx
                 httpApplication.Response.Clear();
                 httpApplication.Response.ContentType = ContentType.RTMPT;
 
-                log4net.ThreadContext.Properties["ClientIP"] = System.Web.HttpContext.Current.Request.UserHostAddress;
+                //log4net.ThreadContext.Properties["ClientIP"] = System.Web.HttpContext.Current.Request.UserHostAddress;
+		// NOTE TODO Common.Logging push ip into ClientIP variable
                 if (log.IsDebugEnabled)
                     log.Debug(__Res.GetString(__Res.Amf_Begin));
 

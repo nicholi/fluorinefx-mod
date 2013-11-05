@@ -23,7 +23,7 @@ using System.IO;
 using System.Collections.Generic;
 #endif
 #if !SILVERLIGHT
-using log4net;
+using Common.Logging;
 #endif
 using FluorineFx.Exceptions;
 using FluorineFx.Messaging.Rtmp.Event;

@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Timers;
 using System.IO;
-using log4net;
+using Common.Logging;
 
 namespace FluorineFx.Hosting
 {

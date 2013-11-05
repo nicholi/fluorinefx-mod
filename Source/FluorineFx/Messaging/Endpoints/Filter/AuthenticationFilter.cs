@@ -23,7 +23,7 @@ using System.Collections;
 using System.Security.Principal;
 using System.Web.Security;
 using System.Threading;
-using log4net;
+using Common.Logging;
 using FluorineFx.Messaging;
 using FluorineFx.Messaging.Messages;
 using FluorineFx.Messaging.Endpoints;

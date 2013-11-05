@@ -21,7 +21,7 @@ using System.Collections;
 using System.Reflection;
 using System.Web;
 using System.Security;
-using log4net;
+using Common.Logging;
 using FluorineFx.Util;
 using FluorineFx.Collections;
 using FluorineFx.Json.Services;
