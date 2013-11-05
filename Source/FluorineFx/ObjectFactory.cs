@@ -57,7 +57,9 @@ namespace FluorineFx
             _typeConstructorCache = new CopyOnWriteDictionary<Type, ConstructorInvoker>();
             try
             {
+#if (NET_2_0 || NET_3_5)
                 new ReflectionPermission(ReflectionPermissionFlag.ReflectionEmit).Demand();
+#endif
                 new ReflectionPermission(ReflectionPermissionFlag.MemberAccess).Demand();
                 new ReflectionPermission(ReflectionPermissionFlag.RestrictedMemberAccess).Demand();
                 new SecurityPermission(SecurityPermissionFlag.UnmanagedCode).Demand();

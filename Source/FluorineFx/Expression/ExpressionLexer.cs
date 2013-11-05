@@ -108,7 +108,7 @@ namespace FluorineFx.Expression
 		{
 			caseSensitiveLiterals = true;
 			setCaseSensitive(true);
-			literals = new Hashtable(100, (float) 0.4, null, Comparer.Default);
+			literals = new Hashtable(100, (float) 0.4);
 			literals.Add("IS", 12);
 			literals.Add("NULL", 15);
 			literals.Add("LIKE", 14);
@@ -128,7 +128,7 @@ namespace FluorineFx.Expression
 tryAgain:
 			for (;;)
 			{
-				IToken _token = null;
+				//IToken _token = null;
 				int _ttype = Token.INVALID_TYPE;
 				resetText();
 				try     // for char stream error handling
