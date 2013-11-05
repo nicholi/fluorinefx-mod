@@ -122,7 +122,8 @@ namespace FluorineFx
                 _host.CompressContent(context);
                 context.Response.Clear();
                 context.Response.ContentType = ContentType.AMF;
-                ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                //ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                // NOTE TODO Common.Logging push ip into ClientIP variable
                 if (Log.IsDebugEnabled)
                     Log.Debug(__Res.GetString(__Res.Amf_Begin));
                 try
@@ -223,7 +224,8 @@ namespace FluorineFx
                     return;
 
                 context.Response.Clear();
-                ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                //ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                // NOTE TODO Common.Logging push ip into ClientIP variable
                 if (Log.IsDebugEnabled)
                     Log.Debug(__Res.GetString(__Res.Amf_Begin));
 
@@ -323,7 +325,8 @@ namespace FluorineFx
             if (page.ToLower() == "jsongateway.aspx")
             {
                 context.Response.Clear();
-                ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                //ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                // NOTE TODO Common.Logging push ip into ClientIP variable
                 if (Log.IsDebugEnabled)
                     Log.Debug(__Res.GetString(__Res.Json_Begin));
 
@@ -398,7 +401,8 @@ namespace FluorineFx
             {
                 context.Response.Clear();
                 context.Response.ContentType = ContentType.RTMPT;
-                ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                //ThreadContext.Properties["ClientIP"] = HttpContext.Current.Request.UserHostAddress;
+                // NOTE TODO Common.Logging push ip into ClientIP variable
                 if (Log.IsDebugEnabled)
                     Log.Debug(__Res.GetString(__Res.Rtmpt_Begin));
 

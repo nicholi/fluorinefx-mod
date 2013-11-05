@@ -58,7 +58,7 @@ namespace FluorineFx
                 httpApplication.Response.ContentType = ContentType.RTMPT;
 
                 //log4net.ThreadContext.Properties["ClientIP"] = System.Web.HttpContext.Current.Request.UserHostAddress;
-		// NOTE TODO Common.Logging push ip into ClientIP variable
+                // NOTE TODO Common.Logging push ip into ClientIP variable
                 if (log.IsDebugEnabled)
                     log.Debug(__Res.GetString(__Res.Amf_Begin));
 

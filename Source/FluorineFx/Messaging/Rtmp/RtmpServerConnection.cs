@@ -182,7 +182,7 @@ namespace FluorineFx.Messaging.Rtmp
                 _lock.ReleaseReaderLock();
             }
             //log4net.ThreadContext.Properties["ClientIP"] = this.RemoteEndPoint;
-	    // NOTE TODO Common.Logging get clientIP
+            // NOTE TODO Common.Logging get clientIP
             if (log.IsDebugEnabled)
                 log.Debug(__Res.GetString(__Res.Rtmp_SocketBeginReceive, _connectionId, IOCPThread));
 
